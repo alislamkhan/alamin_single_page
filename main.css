@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@700&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+}
+.myvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.container{
+
+}
+.main{
+    width: 70%;
+    margin: 0;
+    position: absolute;
+    border-radius: 25px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.headtext{
+    font-size: 4vw;
+    font-weight: 900;
+    padding: 1%;
+    margin: 0;
+}
+.maintext{
+    font-size: 3vw;
+    padding: 1%;
+    margin: 0;
+    font-family: 'Galada', cursive;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacttext{
+    font-size: 3vw;
+    margin: 0;
+}
+.phoneimg{
+    width: 2.5vw;
+    margin-right: 3vw;
+    margin-left: 2vw;
+}
+.bkash{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bkashtext{
+    font-size: 3vw;
+    margin: 0;
+    display: inline-block;
+}
+.bkashimg{
+    width: 7vw;
+}
+.footertext{
+    font-size: 3vw;
+    padding: 3%;
+    margin: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+        margin: 0;
+        padding: 0;
+      }
+      .myvideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+      }
+      .container{
+      
+      }
+      .main{
+          width: 80%;
+          margin: 0;
+          position: absolute;
+          border-radius: 25px;
+          text-align: center;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+      }
+      .headtext{
+          font-size: 4vh;
+          font-weight: 900;
+          padding: 1%;
+          margin: 0;
+      }
+      .maintext{
+          font-size: 3vh;
+          padding: 1%;
+          margin: 0;
+          font-family: 'Galada', cursive;
+      }
+      .contact{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .contacttext{
+          font-size: 3vh;
+          margin: 0;
+      }
+      .phoneimg{
+          width: 2.5vh;
+          margin-right: 3vh;
+          margin-left: 2vh;
+      }
+      .bkash{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .bkashtext{
+          font-size: 3vh;
+          margin: 0;
+          display: inline-block;
+      }
+      .bkashimg{
+          width: 7vh;
+      }
+      .footertext{
+          font-size: 3vh;
+          padding: 3%;
+          margin: 0;
+          font-family: 'Hind Siliguri', sans-serif;
+      }
+}
